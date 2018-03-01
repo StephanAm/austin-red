@@ -13,6 +13,7 @@ namespace DependancyInjectionExample.Models
     interface IPerson
     {
         Guid Id { get; set; }
+        string IdNumber { get; set; }
         string Name { get; set; }
         string Surname { get; set; }
         UInt16 Age { get; set; }
